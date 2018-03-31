@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RentModelStoreContainer" CdmEntityContainer="RentEntities">
+    <EntitySetMapping Name="Houses">
+      <EntityTypeMapping TypeName="RentModel.Houses">
+        <MappingFragment StoreEntitySet="Houses">
+          <ScalarProperty Name="HouseID" ColumnName="HouseID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ResourceType" ColumnName="ResourceType" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="IsJoint" ColumnName="IsJoint" />
+          <ScalarProperty Name="HouseType" ColumnName="HouseType" />
+          <ScalarProperty Name="HouseFloor" ColumnName="HouseFloor" />
+          <ScalarProperty Name="LinkPhone" ColumnName="LinkPhone" />
+          <ScalarProperty Name="TotalFloor" ColumnName="TotalFloor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IntentInfo">
+      <EntityTypeMapping TypeName="RentModel.IntentInfo">
+        <MappingFragment StoreEntitySet="IntentInfo">
+          <ScalarProperty Name="IntentId" ColumnName="IntentId" />
+          <ScalarProperty Name="IntentType" ColumnName="IntentType" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Num" ColumnName="Num" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rooms">
+      <EntityTypeMapping TypeName="RentModel.Rooms">
+        <MappingFragment StoreEntitySet="Rooms">
+          <ScalarProperty Name="RoomID" ColumnName="RoomID" />
+          <ScalarProperty Name="HouseId" ColumnName="HouseId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="RoomType" ColumnName="RoomType" />
+          <ScalarProperty Name="Acreage" ColumnName="Acreage" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="IsAir" ColumnName="IsAir" />
+          <ScalarProperty Name="IsHeater" ColumnName="IsHeater" />
+          <ScalarProperty Name="IsBay" ColumnName="IsBay" />
+          <ScalarProperty Name="IsBalcony" ColumnName="IsBalcony" />
+          <ScalarProperty Name="LiveNum" ColumnName="LiveNum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SysUser">
+      <EntityTypeMapping TypeName="RentModel.SysUser">
+        <MappingFragment StoreEntitySet="SysUser">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreatedById" ColumnName="CreatedById" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="LoginAccount" ColumnName="LoginAccount" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="ModTime" ColumnName="ModTime" />
+          <ScalarProperty Name="ModById" ColumnName="ModById" />
+          <ScalarProperty Name="UserPhoto" ColumnName="UserPhoto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RentImg">
+      <EntityTypeMapping TypeName="RentModel.RentImg">
+        <MappingFragment StoreEntitySet="RentImg">
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="HouseId" ColumnName="HouseId" />
+          <ScalarProperty Name="RoomId" ColumnName="RoomId" />
+          <ScalarProperty Name="ImgId" ColumnName="ImgId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

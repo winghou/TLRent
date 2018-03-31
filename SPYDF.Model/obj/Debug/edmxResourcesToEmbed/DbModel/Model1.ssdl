@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RentModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Houses">
+    <Key>
+      <PropertyRef Name="HouseID" />
+    </Key>
+    <Property Name="HouseID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ResourceType" Type="int" Nullable="false" />
+    <Property Name="Area" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar(max)" />
+    <Property Name="IsJoint" Type="int" />
+    <Property Name="HouseType" Type="int" />
+    <Property Name="HouseFloor" Type="int" />
+    <Property Name="LinkPhone" Type="nvarchar" MaxLength="50" />
+    <Property Name="TotalFloor" Type="int" />
+  </EntityType>
+  <EntityType Name="IntentInfo">
+    <Key>
+      <PropertyRef Name="IntentId" />
+    </Key>
+    <Property Name="IntentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IntentType" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sex" Type="nchar" MaxLength="10" />
+    <Property Name="Num" Type="int" />
+    <Property Name="Remark" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="RentImg">
+    <Key>
+      <PropertyRef Name="ImgId" />
+    </Key>
+    <Property Name="ImgId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoomId" Type="int" />
+    <Property Name="HouseId" Type="int" />
+    <Property Name="Path" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Remark" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Rooms">
+    <Key>
+      <PropertyRef Name="RoomID" />
+    </Key>
+    <Property Name="RoomID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HouseId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="RoomType" Type="int" Nullable="false" />
+    <Property Name="Acreage" Type="int" Nullable="false" />
+    <Property Name="Status" Type="int" Nullable="false" />
+    <Property Name="Remark" Type="nvarchar(max)" />
+    <Property Name="IsAir" Type="int" />
+    <Property Name="IsHeater" Type="int" />
+    <Property Name="IsBay" Type="int" />
+    <Property Name="IsBalcony" Type="int" />
+    <Property Name="LiveNum" Type="int" />
+  </EntityType>
+  <EntityType Name="SysUser">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserType" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="CreatedById" Type="int" Nullable="false" />
+    <Property Name="Status" Type="int" Nullable="false" />
+    <Property Name="LoginAccount" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sex" Type="int" />
+    <Property Name="Password" Type="nvarchar" MaxLength="200" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="ModTime" Type="datetime" />
+    <Property Name="ModById" Type="int" />
+    <Property Name="UserPhoto" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="RentModelStoreContainer">
+    <EntitySet Name="Houses" EntityType="Self.Houses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="IntentInfo" EntityType="Self.IntentInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RentImg" EntityType="Self.RentImg" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rooms" EntityType="Self.Rooms" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SysUser" EntityType="Self.SysUser" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

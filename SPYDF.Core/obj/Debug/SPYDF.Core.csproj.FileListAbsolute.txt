@@ -1,0 +1,10 @@
+F:\spydf\soft\TLRent\SPYDF.Core\bin\Debug\SPYDF.Core.dll
+F:\spydf\soft\TLRent\SPYDF.Core\bin\Debug\SPYDF.Core.pdb
+F:\spydf\soft\TLRent\SPYDF.Core\obj\Debug\SPYDF.Core.csprojResolveAssemblyReference.cache
+F:\spydf\soft\TLRent\SPYDF.Core\obj\Debug\SPYDF.Core.dll
+F:\spydf\soft\TLRent\SPYDF.Core\obj\Debug\SPYDF.Core.pdb
+F:\spydf\soft\TLRent\SPYDF.Core\bin\Debug\SPYDF.Model.dll
+F:\spydf\soft\TLRent\SPYDF.Core\bin\Debug\EntityFramework.dll
+F:\spydf\soft\TLRent\SPYDF.Core\bin\Debug\SPYDF.Model.pdb
+F:\spydf\soft\TLRent\SPYDF.Core\bin\Debug\EntityFramework.xml
+F:\spydf\soft\TLRent\SPYDF.Core\bin\Debug\zh-Hans\EntityFramework.resources.dll

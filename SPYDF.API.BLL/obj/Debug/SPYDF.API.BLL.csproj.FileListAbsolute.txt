@@ -1,0 +1,5 @@
+F:\spydf\soft\TLRent\SPYDF.API.BLL\bin\Debug\SPYDF.API.BLL.dll
+F:\spydf\soft\TLRent\SPYDF.API.BLL\bin\Debug\SPYDF.API.BLL.pdb
+F:\spydf\soft\TLRent\SPYDF.API.BLL\obj\Debug\SPYDF.API.BLL.csprojResolveAssemblyReference.cache
+F:\spydf\soft\TLRent\SPYDF.API.BLL\obj\Debug\SPYDF.API.BLL.dll
+F:\spydf\soft\TLRent\SPYDF.API.BLL\obj\Debug\SPYDF.API.BLL.pdb

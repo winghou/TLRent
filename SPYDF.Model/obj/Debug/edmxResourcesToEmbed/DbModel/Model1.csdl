@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RentModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Houses">
+    <Key>
+      <PropertyRef Name="HouseID" />
+    </Key>
+    <Property Name="HouseID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ResourceType" Type="Int32" Nullable="false" />
+    <Property Name="Area" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsJoint" Type="Int32" />
+    <Property Name="HouseType" Type="Int32" />
+    <Property Name="HouseFloor" Type="Int32" />
+    <Property Name="LinkPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TotalFloor" Type="Int32" />
+  </EntityType>
+  <EntityType Name="IntentInfo">
+    <Key>
+      <PropertyRef Name="IntentId" />
+    </Key>
+    <Property Name="IntentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IntentType" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sex" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Num" Type="Int32" />
+    <Property Name="Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Rooms">
+    <Key>
+      <PropertyRef Name="RoomID" />
+    </Key>
+    <Property Name="RoomID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HouseId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="RoomType" Type="Int32" Nullable="false" />
+    <Property Name="Acreage" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsAir" Type="Int32" />
+    <Property Name="IsHeater" Type="Int32" />
+    <Property Name="IsBay" Type="Int32" />
+    <Property Name="IsBalcony" Type="Int32" />
+    <Property Name="LiveNum" Type="Int32" />
+  </EntityType>
+  <EntityType Name="SysUser">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserType" Type="Int32" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedById" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="LoginAccount" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sex" Type="Int32" />
+    <Property Name="Password" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModTime" Type="DateTime" Precision="3" />
+    <Property Name="ModById" Type="Int32" />
+    <Property Name="UserPhoto" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="RentEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Houses" EntityType="Self.Houses" />
+    <EntitySet Name="IntentInfo" EntityType="Self.IntentInfo" />
+    <EntitySet Name="Rooms" EntityType="Self.Rooms" />
+    <EntitySet Name="SysUser" EntityType="Self.SysUser" />
+    <EntitySet Name="RentImg" EntityType="RentModel.RentImg" />
+  </EntityContainer>
+  <EntityType Name="RentImg">
+    <Key>
+      <PropertyRef Name="ImgId" />
+    </Key>
+    <Property Name="ImgId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoomId" Type="Int32" />
+    <Property Name="HouseId" Type="Int32" />
+    <Property Name="Path" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>
