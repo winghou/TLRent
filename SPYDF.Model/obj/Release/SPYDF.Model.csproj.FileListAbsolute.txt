@@ -1,0 +1,13 @@
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Release\SPYDF.Model.dll.config
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Release\SPYDF.Model.dll
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Release\SPYDF.Model.pdb
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Release\EntityFramework.dll
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Release\EntityFramework.SqlServer.dll
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Release\EntityFramework.xml
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Release\EntityFramework.SqlServer.xml
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Release\zh-Hans\EntityFramework.resources.dll
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\软件\develop\project\TLRent\SPYDF.Model\obj\Release\SPYDF.Model.csprojResolveAssemblyReference.cache
+D:\软件\develop\project\TLRent\SPYDF.Model\obj\Release\SPYDF.Model.csproj.CoreCompileInputs.cache
+D:\软件\develop\project\TLRent\SPYDF.Model\obj\Release\SPYDF.Model.dll
+D:\软件\develop\project\TLRent\SPYDF.Model\obj\Release\SPYDF.Model.pdb

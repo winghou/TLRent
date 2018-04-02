@@ -10,3 +10,17 @@ F:\spydf\soft\TLRent\SPYDF.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
 F:\spydf\soft\TLRent\SPYDF.Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
 F:\spydf\soft\TLRent\SPYDF.Model\obj\Debug\SPYDF.Model.dll
 F:\spydf\soft\TLRent\SPYDF.Model\obj\Debug\SPYDF.Model.pdb
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Debug\SPYDF.Model.dll.config
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Debug\SPYDF.Model.dll
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Debug\SPYDF.Model.pdb
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Debug\EntityFramework.dll
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Debug\EntityFramework.xml
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+D:\软件\develop\project\TLRent\SPYDF.Model\obj\Debug\SPYDF.Model.csprojResolveAssemblyReference.cache
+D:\软件\develop\project\TLRent\SPYDF.Model\obj\Debug\SPYDF.Model.csproj.CoreCompileInputs.cache
+D:\软件\develop\project\TLRent\SPYDF.Model\obj\Debug\SPYDF.Model.dll
+D:\软件\develop\project\TLRent\SPYDF.Model\obj\Debug\SPYDF.Model.pdb
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Debug\APIHelp.XML

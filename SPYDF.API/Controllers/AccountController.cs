@@ -6,6 +6,7 @@ using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
+using System.Web.Http.Description;
 using System.Web.Http.ModelBinding;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
@@ -19,6 +20,8 @@ using SPYDF.API.Results;
 
 namespace SPYDF.API.Controllers
 {
+    [ApiExplorerSettings(IgnoreApi = true)]
+
     [Authorize]
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController

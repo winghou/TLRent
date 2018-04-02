@@ -10,7 +10,7 @@ namespace SPYDF.API.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "API.spydf.xyz";
 
             return View();
         }
