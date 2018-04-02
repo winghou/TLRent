@@ -30,5 +30,6 @@ namespace SPYDF.Model.DbModel
         public virtual DbSet<Rooms> Rooms { get; set; }
         public virtual DbSet<SysUser> SysUser { get; set; }
         public virtual DbSet<RentImg> RentImg { get; set; }
+        public virtual DbSet<UserToken> UserToken { get; set; }
     }
 }

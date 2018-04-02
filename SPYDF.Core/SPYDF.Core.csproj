@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -49,6 +50,7 @@
     <Compile Include="RentService\Impl\HouseService.cs" />
     <Compile Include="RentService\IRoomService.cs" />
     <Compile Include="RentService\IHouseService.cs" />
+    <Compile Include="SecurityService\UserTokenManager.cs" />
     <Compile Include="UserService\Impl\UserService.cs" />
     <Compile Include="UserService\IUserService.cs" />
   </ItemGroup>

@@ -82,6 +82,9 @@
     <Compile Include="DbModel\SysUser.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="DbModel\UserToken.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="InputModel\RoomInput.cs" />
     <Compile Include="InputModel\RentImgInput.cs" />
     <Compile Include="InputModel\HouseInput.cs" />

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SPYDF.Core.RentService
 {
-    interface IRoomService
+    public interface IRoomService
     {
 
         /// <summary>

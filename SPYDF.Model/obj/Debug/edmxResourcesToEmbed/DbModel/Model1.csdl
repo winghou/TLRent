@@ -70,6 +70,7 @@
     <EntitySet Name="Rooms" EntityType="Self.Rooms" />
     <EntitySet Name="SysUser" EntityType="Self.SysUser" />
     <EntitySet Name="RentImg" EntityType="RentModel.RentImg" />
+    <EntitySet Name="UserToken" EntityType="RentModel.UserToken" />
   </EntityContainer>
   <EntityType Name="RentImg">
     <Key>
@@ -80,5 +81,16 @@
     <Property Name="HouseId" Type="Int32" />
     <Property Name="Path" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="UserToken">
+    <Key>
+      <PropertyRef Name="TokenId" />
+    </Key>
+    <Property Name="TokenId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Token" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Timeout" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UserType" Type="Int32" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" Precision="3" />
   </EntityType>
 </Schema>

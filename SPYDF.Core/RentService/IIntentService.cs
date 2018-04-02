@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SPYDF.Core.RentService
 {
-    interface IIntentService
+    public interface IIntentService
     {
     }
 }

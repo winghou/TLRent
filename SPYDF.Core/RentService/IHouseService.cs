@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SPYDF.Core.RentService
 {
-    interface IHouseService
+    public interface IHouseService
     {
         /// <summary>
         /// 添加

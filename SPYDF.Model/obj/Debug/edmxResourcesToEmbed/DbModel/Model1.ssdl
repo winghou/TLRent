@@ -74,11 +74,23 @@
     <Property Name="ModById" Type="int" />
     <Property Name="UserPhoto" Type="nvarchar(max)" />
   </EntityType>
+  <EntityType Name="UserToken">
+    <Key>
+      <PropertyRef Name="TokenId" />
+    </Key>
+    <Property Name="TokenId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="Token" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Timeout" Type="datetime" Nullable="false" />
+    <Property Name="UserType" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+  </EntityType>
   <EntityContainer Name="RentModelStoreContainer">
     <EntitySet Name="Houses" EntityType="Self.Houses" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="IntentInfo" EntityType="Self.IntentInfo" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="RentImg" EntityType="Self.RentImg" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Rooms" EntityType="Self.Rooms" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="SysUser" EntityType="Self.SysUser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserToken" EntityType="Self.UserToken" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>
