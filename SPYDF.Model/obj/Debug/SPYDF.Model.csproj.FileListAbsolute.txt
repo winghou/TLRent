@@ -11,7 +11,6 @@ D:\软件\develop\project\TLRent\SPYDF.Model\obj\Debug\SPYDF.Model.csprojResolve
 D:\软件\develop\project\TLRent\SPYDF.Model\obj\Debug\SPYDF.Model.csproj.CoreCompileInputs.cache
 D:\软件\develop\project\TLRent\SPYDF.Model\obj\Debug\SPYDF.Model.dll
 D:\软件\develop\project\TLRent\SPYDF.Model\obj\Debug\SPYDF.Model.pdb
-D:\软件\develop\project\TLRent\SPYDF.Model\bin\Debug\APIHelp.XML
 F:\spydf\soft\TLRent\SPYDF.Model\bin\Debug\SPYDF.Model.dll.config
 F:\spydf\soft\TLRent\SPYDF.Model\bin\Debug\SPYDF.Model.dll
 F:\spydf\soft\TLRent\SPYDF.Model\bin\Debug\SPYDF.Model.pdb
@@ -25,3 +24,4 @@ F:\spydf\soft\TLRent\SPYDF.Model\obj\Debug\SPYDF.Model.csprojResolveAssemblyRefe
 F:\spydf\soft\TLRent\SPYDF.Model\obj\Debug\SPYDF.Model.dll
 F:\spydf\soft\TLRent\SPYDF.Model\obj\Debug\SPYDF.Model.pdb
 F:\spydf\soft\TLRent\SPYDF.Model\bin\Debug\APIModel.XML
+D:\软件\develop\project\TLRent\SPYDF.Model\bin\Debug\APIModel.XML

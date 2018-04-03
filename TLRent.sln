@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLRent", "TLRent\TLRent.csproj", "{DD0AB656-038F-488D-8A68-7E9BB1C9F59B}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPYDF.Model", "SPYDF.Model\SPYDF.Model.csproj", "{3D1CA34E-591F-48C7-9BB0-024350975066}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPYDF.Core", "SPYDF.Core\SPYDF.Core.csproj", "{BD1FD061-0BFC-4E12-AD37-D2F33DDA14A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPYDF.Composition", "SPYDF.Composition\SPYDF.Composition.csproj", "{339BE444-F673-4C66-999B-F1F56AAF136F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,8 +41,15 @@ Global
 		{BD1FD061-0BFC-4E12-AD37-D2F33DDA14A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD1FD061-0BFC-4E12-AD37-D2F33DDA14A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD1FD061-0BFC-4E12-AD37-D2F33DDA14A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339BE444-F673-4C66-999B-F1F56AAF136F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339BE444-F673-4C66-999B-F1F56AAF136F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339BE444-F673-4C66-999B-F1F56AAF136F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339BE444-F673-4C66-999B-F1F56AAF136F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E93BC9D-798D-456B-8838-A9F48D13C4B7}
 	EndGlobalSection
 EndGlobal

@@ -242,6 +242,7 @@
     <Compile Include="Controllers\RentController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="FilterAttribute\ApiAuthorizeAttribute.cs" />
     <Compile Include="FilterAttribute\AuthFilterAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -327,6 +328,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SPYDF.Core\SPYDF.Core.csproj">
+      <Project>{BD1FD061-0BFC-4E12-AD37-D2F33DDA14A2}</Project>
+      <Name>SPYDF.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SPYDF.Model\SPYDF.Model.csproj">
       <Project>{3D1CA34E-591F-48C7-9BB0-024350975066}</Project>
       <Name>SPYDF.Model</Name>

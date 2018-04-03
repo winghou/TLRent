@@ -12,21 +12,21 @@ using System.Web;
 namespace SPYDF.Core.SecurityService
 {
 
-    [Export]
+   
     public class UserTokenManager
     {
-        private readonly List<UserTokenView> tokenList;
         private const string TOKENNAME = "PASSPORT.TOKEN";
-        [Import]
-        public IUserTokenService UserTokenService { get; set; }
+       [Import]
+        public static IUserTokenService UserTokenService { get; set; }
         /// <summary>
         /// 初始化缓存
         /// </summary>
-        private List<UserTokenView> InitCache()
+        private static List<UserTokenView> InitCache()
         {
             if (HttpRuntime.Cache[TOKENNAME] == null)
             {
-                var tokens = UserTokenService.GetTokenLis();
+                
+                  var tokens = UserTokenService.GetTokenLis();
                 // cache 的过期时间， 令牌过期时间 *2
                 HttpRuntime.Cache.Insert(TOKENNAME, tokens, null, System.Web.Caching.Cache.NoAbsoluteExpiration, TimeSpan.FromDays(7 * 2));
             }
@@ -35,7 +35,7 @@ namespace SPYDF.Core.SecurityService
         }
 
 
-        public int GetUId(string token)
+        public static int GetUId(string token)
         {
             var tokens = InitCache();
             var result = 0;

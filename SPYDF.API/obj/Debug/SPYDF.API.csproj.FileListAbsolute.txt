@@ -115,7 +115,6 @@ D:\软件\develop\project\TLRent\SPYDF.API\obj\Debug\SPYDF.API.pdb
 D:\软件\develop\project\TLRent\SPYDF.API\bin\SPYDF.Model.dll
 D:\软件\develop\project\TLRent\SPYDF.API\bin\SPYDF.Model.pdb
 D:\软件\develop\project\TLRent\SPYDF.API\bin\SPYDF.Model.dll.config
-D:\软件\develop\project\TLRent\SPYDF.API\bin\APIHelp.XML
 F:\spydf\soft\TLRent\SPYDF.API\bin\ApplicationInsights.config
 F:\spydf\soft\TLRent\SPYDF.API\bin\roslyn\csc.exe
 F:\spydf\soft\TLRent\SPYDF.API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -232,3 +231,9 @@ F:\spydf\soft\TLRent\SPYDF.API\obj\Debug\SPYDF.API.csprojResolveAssemblyReferenc
 F:\spydf\soft\TLRent\SPYDF.API\obj\Debug\SPYDF.API.dll
 F:\spydf\soft\TLRent\SPYDF.API\obj\Debug\SPYDF.API.pdb
 F:\spydf\soft\TLRent\SPYDF.API\bin\API.XML
+D:\软件\develop\project\TLRent\SPYDF.API\bin\API.XML
+D:\软件\develop\project\TLRent\SPYDF.API\bin\SPYDF.Core.dll
+D:\软件\develop\project\TLRent\SPYDF.API\bin\AutoMapper.dll
+D:\软件\develop\project\TLRent\SPYDF.API\bin\SPYDF.Core.pdb
+D:\软件\develop\project\TLRent\SPYDF.API\bin\SPYDF.Core.dll.config
+D:\软件\develop\project\TLRent\SPYDF.API\bin\AutoMapper.xml

@@ -19,7 +19,7 @@ namespace SPYDF.Core.SecurityService
         /// 获取Token集合
         /// </summary>
         /// <returns></returns>
-        public List<UserTokenView> GetTokenLis()
+        public  List<UserTokenView> GetTokenLis()
         {
             var result = new List<UserTokenView>();
             var DbTokenList= DbEntity.Set<UserToken>().ToList();
