@@ -24,7 +24,7 @@ namespace SPYDF.API.BLL.Rent
         /// <param name="size"></param>
         /// <param name="pageIndex"></param>
         /// <returns></returns>
-        public List<RoomView> GetRoomsByPageIndex(PageFind<RoomInput> model)
+        public List<RoomView> GetRoomsByPageIndex(RommPageFind model)
         {
             List<RoomView> result = new List<RoomView>();
             return result;

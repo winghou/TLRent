@@ -9,4 +9,5 @@ F:\spydf\soft\TLRent\SPYDF.API.BLL\bin\Debug\EntityFramework.dll
 F:\spydf\soft\TLRent\SPYDF.API.BLL\bin\Debug\SPYDF.Core.pdb
 F:\spydf\soft\TLRent\SPYDF.API.BLL\bin\Debug\SPYDF.Model.pdb
 F:\spydf\soft\TLRent\SPYDF.API.BLL\bin\Debug\EntityFramework.xml
-F:\spydf\soft\TLRent\SPYDF.API.BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\spydf\soft\TLRent\SPYDF.API.BLL\bin\Debug\AutoMapper.dll
+F:\spydf\soft\TLRent\SPYDF.API.BLL\bin\Debug\AutoMapper.xml

@@ -1,0 +1,415 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SPYDF.Model</name>
+    </assembly>
+    <members>
+        <member name="T:SPYDF.Model.DbModel.RentEntities">
+            <summary>
+            租房实体
+            </summary>
+        </member>
+        <member name="M:SPYDF.Model.DbModel.RentEntities.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:SPYDF.Model.DbModel.RentEntities.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>
+            model创建
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="P:SPYDF.Model.DbModel.RentEntities.Houses">
+            <summary>
+            房间信息
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.DbModel.RentEntities.IntentInfo">
+            <summary>
+            意向信息
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.DbModel.RentEntities.Rooms">
+            <summary>
+            房间信息
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.DbModel.RentEntities.SysUser">
+            <summary>
+            用户信息
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.DbModel.RentEntities.RentImg">
+            <summary>
+            照片信息
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.DbModel.RentEntities.UserToken">
+            <summary>
+            用户Token信息
+            </summary>
+        </member>
+        <member name="T:SPYDF.Model.Enum.AreaTypeEnum">
+            <summary>
+            房间类型
+            </summary>
+        </member>
+        <member name="F:SPYDF.Model.Enum.AreaTypeEnum.FuRong">
+            <summary>
+            芙蓉区
+            </summary>
+        </member>
+        <member name="F:SPYDF.Model.Enum.AreaTypeEnum.TianXin">
+            <summary>
+            天心区
+            </summary>
+        </member>
+        <member name="F:SPYDF.Model.Enum.AreaTypeEnum.YueLu">
+            <summary>
+            岳麓区
+            </summary>
+        </member>
+        <member name="F:SPYDF.Model.Enum.AreaTypeEnum.KaiFu">
+            <summary>
+            开福区
+            </summary>
+        </member>
+        <member name="F:SPYDF.Model.Enum.AreaTypeEnum.YuHua">
+            <summary>
+            雨花区
+            </summary>
+        </member>
+        <member name="T:SPYDF.Model.Enum.HouseTypeEnum">
+            <summary>
+            房间类型
+            </summary>
+        </member>
+        <member name="F:SPYDF.Model.Enum.HouseTypeEnum.Self">
+            <summary>
+            自营
+            </summary>
+        </member>
+        <member name="F:SPYDF.Model.Enum.HouseTypeEnum.Join">
+            <summary>
+            加盟
+            </summary>
+        </member>
+        <member name="F:SPYDF.Model.Enum.HouseTypeEnum.Trusteeship">
+            <summary>
+            单间+客厅
+            </summary>
+        </member>
+        <member name="T:SPYDF.Model.Enum.RoomTypeEnum">
+            <summary>
+            房间类型
+            </summary>
+        </member>
+        <member name="F:SPYDF.Model.Enum.RoomTypeEnum.OrdinarySingle">
+            <summary>
+            普通单间
+            </summary>
+        </member>
+        <member name="F:SPYDF.Model.Enum.RoomTypeEnum.Single_Washroom">
+            <summary>
+            单间+卫生间
+            </summary>
+        </member>
+        <member name="F:SPYDF.Model.Enum.RoomTypeEnum.Single_Parlour">
+            <summary>
+            单间+客厅
+            </summary>
+        </member>
+        <member name="F:SPYDF.Model.Enum.RoomTypeEnum.Single_Washroom_Parlour">
+            <summary>
+            单间+卫生间+客厅
+            </summary>
+        </member>
+        <member name="F:SPYDF.Model.Enum.RoomTypeEnum.Single_Balcony">
+            <summary>
+            单间+阳台
+            </summary>
+        </member>
+        <member name="F:SPYDF.Model.Enum.RoomTypeEnum.Suite">
+            <summary>
+            套房
+            </summary>
+        </member>
+        <member name="T:SPYDF.Model.InputModel.RommPageFind">
+            <summary>
+            分页查询
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RommPageFind.Size">
+            <summary>
+            大小
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RommPageFind.PageIndex">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RommPageFind.Total">
+            <summary>
+            总数
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RommPageFind.parm">
+            <summary>
+            条件
+            </summary>
+        </member>
+        <member name="T:SPYDF.Model.InputModel.RoomFindInput">
+            <summary>
+            房间查询输入
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.HouseType">
+            <summary>
+            房类型 1.单间  2.一室一厅 等
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.Area">
+            <summary>
+            区域  1.芙蓉区 2.天心区 3.岳麓区 4.开福区 5.雨花区
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.Price">
+            <summary>
+            价格
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.RoomType">
+            <summary>
+            房间类型   1.普通单间 2.单间+卫生间 3.单间+客厅 4.单间+卫生间+客厅 5.单间+阳台
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.ResourceType">
+            <summary>
+            房源类型   1.自营 2.加盟 3.托管
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.IsAir">
+            <summary>
+            是否带空调 0：没有 ，1：有
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.IsHeater">
+            <summary>
+            是否有热水器 0：没有 ，1：有
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.IsBay">
+            <summary>
+            是否带飘窗 0：没有 ，1：有
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.IsBalcony">
+            <summary>
+            是否有阳台 0：没有 ，1：有
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.LiveNum">
+            <summary>
+            可住人数 如2人
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.FindKey">
+            <summary>
+            关键字 
+            </summary>
+        </member>
+        <member name="T:SPYDF.Model.InputModel.UserTokenInput">
+            <summary>
+            Token安全验证
+            </summary>
+        </member>
+        <member name="T:SPYDF.Model.ViewModel.HealthView">
+            <summary>
+            健康检测
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.HealthView.Success">
+            <summary>
+            请求是否成功
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.HealthView.Msg">
+            <summary>
+            返回消息
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.HealthView.Code">
+            <summary>
+            返回码
+            </summary>
+        </member>
+        <member name="T:SPYDF.Model.ViewModel.RoomView">
+            <summary>
+            房间信息
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.RoomID">
+            <summary>
+            房间编号
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.RoomName">
+            <summary>
+            房间名称 
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.HouseId">
+            <summary>
+            房编号
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.HouseName">
+            <summary>
+            房名称
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.IsJoint">
+            <summary>
+            合租房  0：否 ，1：是 
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.ResourceType">
+            <summary>
+            房源类型 1.自营 2.加盟 3.托管
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.ResourceTypeName">
+            <summary>
+            房源类型 1.自营 2.加盟 3.托管
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.HouseType">
+            <summary>
+            房类型 1.单间  2.一室一厅
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.HouseTypeName">
+            <summary>
+            房类型 1.单间  2.一室一厅
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.HouseFloor">
+            <summary>
+            楼层   如11层
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.TotalFloor">
+            <summary>
+            总楼层   共20层
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.AreaId">
+            <summary>
+            区域名 1.芙蓉区 2.天心区 3.岳麓区 4.开福区 5.雨花区
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.AreaName">
+            <summary>
+            区域名 1.芙蓉区 2.天心区 3.岳麓区 4.开福区 5.雨花区
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.StreetName">
+            <summary>
+            街道
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.Price">
+            <summary>
+            价格 如：999
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.RoomType">
+            <summary>
+            房间类型 1.普通单间 2.单间+卫生间 3.单间+客厅 4.单间+卫生间+客厅 5.单间+阳台
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.RoomTypeName">
+            <summary>
+            房间类型 1.普通单间 2.单间+卫生间 3.单间+客厅 4.单间+卫生间+客厅 5.单间+阳台
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.Acreage">
+            <summary>
+            面积 如 80
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.Status">
+            <summary>
+            状态 :0 待住 1 已入住
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.Remark">
+            <summary>
+            描述 如漂亮、干净
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.IsAir">
+            <summary>
+            是否有空调 ：0：没有 ，1：有 
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.IsHeater">
+            <summary>
+            是否有热水器 0：没有 ，1：有 
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.IsBay">
+            <summary>
+            是否有飘窗 0：没有 ，1：有
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.IsBalcony">
+            <summary>
+            是否有阳台 0：没有 ，1：有
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.LiveNum">
+            <summary>
+            可住人数
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.ImgList">
+            <summary>
+            房间图片
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RentImgView.ImgId">
+            <summary>
+            图片ID
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RentImgView.RoomId">
+            <summary>
+            房间ID
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RentImgView.HouseId">
+            <summary>
+            房ID
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RentImgView.Path">
+            <summary>
+            图片路径
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RentImgView.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:SPYDF.Model.ViewModel.UserTokenView">
+            <summary>
+            Token
+            </summary>
+        </member>
+    </members>
+</doc>

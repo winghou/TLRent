@@ -22,26 +22,4 @@ namespace SPYDF.Model.InputModel
         public Nullable<int> IsBalcony { get; set; }
         public Nullable<int> LiveNum { get; set; }
     }
-
-    public class PageFind<T>
-    {
-        /// <summary>
-        /// 大小
-        /// </summary>
-        public int Size { get; set; }
-
-        /// <summary>
-        /// 页码
-        /// </summary>
-        public int PageIndex { get; set; }
-        /// <summary>
-        /// 总数
-        /// </summary>
-        public int Total { get; set; }
-        /// <summary>
-        /// 条件
-        /// </summary>
-        public T parm { get; set; }
-    }
-
 }

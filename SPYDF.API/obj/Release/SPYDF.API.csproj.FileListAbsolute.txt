@@ -228,3 +228,5 @@ D:\软件\develop\project\TLRent\SPYDF.API\obj\Release\SPYDF.API.csprojResolveAs
 D:\软件\develop\project\TLRent\SPYDF.API\obj\Release\SPYDF.API.csproj.CoreCompileInputs.cache
 D:\软件\develop\project\TLRent\SPYDF.API\obj\Release\SPYDF.API.dll
 D:\软件\develop\project\TLRent\SPYDF.API\obj\Release\SPYDF.API.pdb
+F:\spydf\soft\TLRent\SPYDF.API\bin\SPYDF.Model.dll
+F:\spydf\soft\TLRent\SPYDF.API\bin\SPYDF.Model.pdb

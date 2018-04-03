@@ -1,0 +1,189 @@
+﻿<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SPYDF.Model</name>
+    </assembly>
+    <members>
+        <member name="T:SPYDF.Model.InputModel.PageFind">
+            <summary>
+            分页查询
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.PageFind.Size">
+            <summary>
+            大小
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.PageFind.PageIndex">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.PageFind.Total">
+            <summary>
+            总数
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.PageFind.parm">
+            <summary>
+            条件
+            </summary>
+        </member>
+        <member name="T:SPYDF.Model.InputModel.RoomFindInput">
+            <summary>
+            房间查询输入
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.Area">
+            <summary>
+            区域
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.Price">
+            <summary>
+            价格
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.RoomType">
+            <summary>
+            房间类型
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.HouseType">
+            <summary>
+            房源类型
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.IsAir">
+            <summary>
+            是否带空调
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.IsHeater">
+            <summary>
+            是否有热水器
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.IsBay">
+            <summary>
+            是否带飘窗
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.IsBalcony">
+            <summary>
+            是否有阳台
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.LiveNum">
+            <summary>
+            可住人数
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.InputModel.RoomFindInput.FindKey">
+            <summary>
+            关键字
+            </summary>
+        </member>
+        <member name="T:SPYDF.Model.ViewModel.RoomView">
+            <summary>
+            房间信息
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.RoomID">
+            <summary>
+            房间编号
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.HouseId">
+            <summary>
+            房编号
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.Name">
+            <summary>
+            房间名称
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.Price">
+            <summary>
+            价格
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.RoomType">
+            <summary>
+            房间类型
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.Acreage">
+            <summary>
+            面积
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.Status">
+            <summary>
+            状态 :0 待租 1 已租
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.Remark">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.IsAir">
+            <summary>
+            是否有空调 ：0：没有 ，1：有 
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.IsHeater">
+            <summary>
+            是否有热水器 0：没有 ，1：有 
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.IsBay">
+            <summary>
+            是否有飘窗 0：没有 ，1：有
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.IsBalcony">
+            <summary>
+            是否有阳台 0：没有 ，1：有
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.LiveNum">
+            <summary>
+            可住人数
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RoomView.ImgList">
+            <summary>
+            房间图片
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RentImgView.ImgId">
+            <summary>
+            图片ID
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RentImgView.RoomId">
+            <summary>
+            房间ID
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RentImgView.HouseId">
+            <summary>
+            房ID
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RentImgView.Path">
+            <summary>
+            图片路径
+            </summary>
+        </member>
+        <member name="P:SPYDF.Model.ViewModel.RentImgView.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+    </members>
+</doc>
